@@ -1,0 +1,353 @@
+:root{
+    --main-color: #1f1d2c;
+    --accent-color: #f1a600;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--main-color);
+    color: white;
+    font-family: 'Inter', sans-serif;
+    background-image: url(./Rectangle\ 34.svg);
+    background-repeat: no-repeat;
+    background-size: 310px;
+    background-position: right top;
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: .5rem 1.25rem;
+    background-color: transparent;
+}
+
+
+nav>div img{
+    width: 24px;
+}
+
+input#menu-hamburguesa{
+    visibility: hidden;
+}
+
+input#menu-hamburguesa~ul{
+    background-color: tomato;
+    width: 100%;
+    list-style: none;
+    height: 100%;
+    position: absolute;
+    right: 100%;
+    transition:all 150ms linear;
+}
+
+input#menu-hamburguesa:checked~ul{
+    right: 0;
+}
+
+#about-section{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.25rem;
+}
+
+#about-section>div{
+    position: absolute;
+    left: 0;
+    padding: 0 1.25rem;
+}
+
+
+#about-section h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#about-section h1+p{
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+#about-section p>span{
+    color: var(--accent-color);
+}
+.icon-redes{
+    margin-top: 1rem;
+}
+.icon-redes>.icon{
+    margin-right: 1rem 1rem;
+    width: 24px;
+}
+
+section img{
+    object-fit: contain;
+    max-width: 250px;
+    max-height: 300px;   
+}
+
+#about-my{
+    background-image: url(./Rectangle\ 33-1.svg);
+    background-repeat: repeat;
+    text-align: center;
+    padding: 25px ;
+}
+
+h2{
+    padding: 12px;
+    font-weight: 600;
+    font-size: 32px ;
+}
+
+.info-my{
+    margin: 20px;
+
+}
+
+.img-teclab{
+    width: 190px;
+    height: px;
+}
+
+.div-cursos{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around;
+}
+
+.info-cursos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 5px;
+}
+
+#about-experiencia h2{
+    padding: 12px;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    margin: 10px;
+}
+
+.conte-amazon{
+    margin: 20px;
+}
+
+.contenedor-two{
+width: 90%;
+}
+
+.contenedor-two .conte-amazon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+.two-years{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.conte-airbnb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    padding: 20px 20px;
+}
+
+.one-years{
+    font-size: 25px;
+}
+
+.conte-google{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+
+.two-yearss{
+    font-size: 25px;
+}
+
+.barra-amarilla{
+    position: absolute;
+    right: 40px;
+    top: 950px;
+    margin: 0;
+}
+
+#about-habilidades{
+    background-image: url(./Rectangle\ 34-1.svg);
+    background-repeat: no-repeat;
+    
+}
+
+.habilidades-1{
+    padding: 12px;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+}
+
+.porcentajes-f{
+    font-size: 40px;
+    color: #f1a600;
+    padding: 10px;
+}
+
+
+.pri-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 30px;
+}
+
+.seg-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+    top: 1420px;
+    left: 150px;    
+}
+
+.contenido-1{
+    padding: 20px;
+    text-align: center;
+}
+
+.h2-pen{
+    padding: 12px;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+}
+
+.eccomerce-1{
+    background-color: #f1a600;
+    width: 270px;
+    margin: 20px 40px;
+}
+
+.foto-1{
+    position: relative;
+    left: 8px;
+    top: 20px;
+}
+
+.eccomerce-2{
+    position: relative;
+    left: 55px;
+}
+
+.Training-1{
+    margin: 20px 200px;
+    background-color: #242635;
+    width: 270px;
+
+}
+
+.foto-2{
+    position: relative;
+    left: 25px;
+    top: 20px;
+
+}
+
+.training-2{
+    position: relative;
+    left: 225px;
+}
+
+.persona-l{
+    background-color: #f1a600;
+    width: 270px;
+    margin: 20px 50px;
+}
+
+.foto-3{
+    position: relative;
+    left: 5px;
+    top: 20px;
+}
+
+.persona-2{
+    position: relative;
+    left: 60px;
+}
+
+#info-final{
+    background-color: #242635;
+    margin: 10px 0px;
+    align-items: center;
+    height: 320px;
+
+}
+
+#info-final .h2-final{
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.img-phone{
+    margin: 20px;
+    width: 100px;
+    position: relative;
+    left: 50px;
+}
+
+.numb-cel{
+    position: relative;
+    left: 65px;
+}
+.numb-phone{
+    color: #656ba7;
+    position: relative;
+    left: 82px;
+}
+
+.img-correo{
+    width: 100px;
+    position: relative;
+    left: 300px;
+    bottom: 100px;
+}
+
+.nom-correo{
+    position: relative;
+    left: 328px;
+    bottom: 110px;
+}
+
+.dirc-correo{
+    color: #656ba7;
+    position: relative;
+    left: 235px;
+    bottom: 110px;
+}
+
+.fianl-0{
+    text-align: center;
+    color: #2989b6;
+}
